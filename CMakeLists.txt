@@ -3,4 +3,5 @@ project(algorytmy_macierzowe)
 
 set(CMAKE_CXX_STANDARD 26)
 
-add_executable(algorytmy_macierzowe main.cpp)
+add_executable(algorytmy_macierzowe main.cpp
+        Matrix.cpp)
